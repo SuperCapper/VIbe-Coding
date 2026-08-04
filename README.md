@@ -68,22 +68,84 @@ Hit any of these and the mode changes: read the diffs, ask the AI to explain the
 
 ### Step 1: Choose Your Tool
 
-![Step 1: Choose Your Tool](images/step1-choose-tool.png)
+Different tools work better for different people. Here's the honest breakdown for May 2026.
 
 ### Step 2: Write Your First Prompt
 
-![Step 2: Write Your First Prompt](images/step2-write-first-prompt.png)
+Your prompt is your blueprint. Better prompts produce better results.
 
-![Bad Prompt vs. Good Prompt](images/bad-prompt-vs-good-prompt.png)
+**The Anatomy of a Good Prompt**
+
+A good vibe coding prompt answers these questions:
+
+1. **What is this?** - The type of app or feature
+2. **Who is it for?** - The user and their context
+3. **What does it do?** - The core functionality
+4. **How should it look?** - Style preferences (optional but helpful)
+
+**Bad Prompt vs. Good Prompt**
+
+Bad prompt:
+
+> "Make me an app"
+
+This gives the AI nothing to work with. You'll get something generic and probably not what you wanted.
+
+Good prompt:
+
+> "Build an expense tracker for freelancers. It should have:
+>
+> - A form to add expenses with amount, category, and date
+> - A dashboard showing total expenses by month
+> - Categories: Travel, Software, Office, Marketing, Other
+> - Clean, minimal design with a dark mode option
+> - Use Tailwind CSS for styling"
 
 ### Step 3: Generate Your First Version
 
-![Step 3: Generate Your First Version](images/step3-generate-first-version.png)
+Open your chosen tool. Paste your prompt. Hit generate.
 
-![The 80% Rule](images/the-80-percent-rule.png)
+**What happens next:**
+
+- The AI analyzes your description
+- It creates the file structure, components, and styling
+- You see a preview of your app (usually within 30 seconds to 2 minutes)
+
+**What to expect:**
+
+- About 80% of what you asked for will be right
+- Some things will be off: that's normal
+- The layout might not be exactly what you imagined
+- Some features might be missing or interpreted differently
+
+Don't panic. The first generation is a starting point, not the final product. The real magic happens in iteration.
+
+**The 80% Rule**
+
+Your first generation will be roughly 80% correct. That's actually great: it means you have a foundation to build on. Traditional development would have taken hours to reach this point.
+
+The remaining 20% comes from iteration. That's Step 4.
 
 ### Step 4: Iterate With Conversational Edits
 
-![Step 4: Iterate With Conversational Edits](images/step4-iterate-conversational-edits.png)
+This is where beginners make the most progress, and where most get the workflow wrong.
 
-![Iterate example: small prompts beat big prompts](images/iterate-example-small-prompts.png)
+**The Key Insight: Small Prompts Beat Big Prompts**
+
+Don't try to fix everything in one message. Break it down.
+
+Instead of:
+
+> "The header is too big, the buttons are the wrong color, the spacing is off, I wanted the sidebar on the left not the right, and can you add a search bar and make it responsive?"
+
+Do this:
+
+> "Make the header smaller: about half the current height."
+
+Then:
+
+> "Change the button colors to blue."
+
+Then:
+
+> "Move the sidebar to the left side."
