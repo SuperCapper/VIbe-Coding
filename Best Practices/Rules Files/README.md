@@ -4,6 +4,31 @@ Large language models don't retain memory between completions. Every new convers
 
 Rules files solve this. They provide persistent, reusable context that gets included at the start of every AI interaction.
 
+## What to Include
+
+**Always include:**
+
+- Tech stack and versions
+- File organization conventions
+- Naming patterns
+- Error handling approach
+- Testing expectations
+
+**Context-dependent:**
+
+- Current sprint/focus area
+- Known issues or workarounds
+- Integration patterns
+- Security requirements
+
+**Don't include:**
+
+- Obvious things ("write clean code")
+- Frequently changing information
+- Personal preferences that don't affect output
+
+The goal is to give AI the context it needs to make decisions that align with your project's conventions, without overwhelming it with irrelevant detail.
+
 ## Cursor: `.cursor/rules/`
 
 Cursor deprecated the old `.cursorrules` file in favor of a `.cursor/rules/` directory containing multiple `.mdc` files. This change provides better organization: you can have separate files for different concerns.
@@ -75,28 +100,3 @@ Working on the reporting module. Key files:
 ## Windsurf: `.windsurfrules`
 
 Windsurf (rebranded to Devin Desktop in June 2026) uses `.windsurfrules`: similar format to Cursor's approach.
-
-## What to Include in Rules Files
-
-**Always include:**
-
-- Tech stack and versions
-- File organization conventions
-- Naming patterns
-- Error handling approach
-- Testing expectations
-
-**Context-dependent:**
-
-- Current sprint/focus area
-- Known issues or workarounds
-- Integration patterns
-- Security requirements
-
-**Don't include:**
-
-- Obvious things ("write clean code")
-- Frequently changing information
-- Personal preferences that don't affect output
-
-The goal is to give AI the context it needs to make decisions that align with your project's conventions, without overwhelming it with irrelevant detail.
