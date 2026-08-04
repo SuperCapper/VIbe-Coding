@@ -57,6 +57,6 @@ Don't just paste the error. Paste the error AND the code that caused it. *"@api.
 
 The tool you use matters.
 
-- **Cursor:** Best for referencing specific files and docs.
-- **Windsurf:** Great for "deep context" where it finds relevant files for you.
-- **Bolt.new:** Best for visual prompting (seeing the result instantly).
+- **Cursor:** Best for referencing specific files and docs in the Frontend.
+- **Claude Code:** Best for referencing specific files and docs in the Backend.
+- **Devin:** Great for "deep context" where it finds relevant files for you.
