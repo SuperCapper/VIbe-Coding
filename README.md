@@ -196,6 +196,16 @@ Be precise about triggers and outcomes:
 
 The more specific you are about what triggers an action and what the result should be, the better the output.
 
+### The checklist that fixes most "bad prompt" problems
+
+Before you hit enter, can you answer:
+
+- What you're building, and why
+- What you refuse to do (constraints)
+- Edge cases that matter
+- Acceptance criteria
+- How you'll validate it
+
 ### Step 6: Polish the Design
 
 Functionality first, then aesthetics. Once everything works, make it look good.
