@@ -15,3 +15,13 @@ The workflow is simpler than people make it sound.
 5. **When things break, paste the error**: the Karpathy move. Copy the error message, paste it into the chat, let the AI figure out what went wrong.
 
 The conversation becomes your source code. The actual files are almost a byproduct.
+
+## When to Intervene vs. Let It Flow
+
+The art is knowing when to guide versus when to accept. Some rules I've found useful:
+
+- **Let it flow** when you're scaffolding, exploring ideas, or building UI components
+- **Intervene** when you're touching auth, payments, data handling, or anything security-adjacent
+- **Always review** database schemas, API permissions, and anything that touches user data
+
+The developers who get burned are the ones who vibe code their authentication system. Don't be that person.
