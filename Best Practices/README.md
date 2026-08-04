@@ -1,16 +1,16 @@
 # The Best Practices That Actually Matter
 
-Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
-
 > **TL;DR**
 >
 > In **Vibe Coding**, your prompt is your source code.
 >
-> - **Rule 1:** Be explicit about **Context** (@mention files).
-> - **Rule 2:** Focus on **Behavior**, not just implementation.
-> - **Rule 3:** Use **Pseudo-code** to guide complex logic.
-> - **Rule 4:** Iterative prompting > One giant prompt.
-> - **Tool:** Use **Cursor** for the best context-aware prompting.
+> - Be explicit about **Context** (@mention files).
+> - Focus on **Behavior**, not just implementation.
+> - Use **Pseudo-code** to guide complex logic.
+> - Iterative prompting > One giant prompt.
+> - **Tools:** Use **Cursor** and **Claude** for the best context-aware prompting.
+
+Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
 
 ## 1. Define Intent Before You Prompt
 
