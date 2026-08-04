@@ -149,3 +149,92 @@ Then:
 Then:
 
 > "Move the sidebar to the left side."
+
+### The Feedback Loop
+
+The vibe coding workflow is a loop:
+
+1. Prompt
+2. See result
+3. Identify one thing to change
+4. Prompt again
+5. Repeat until satisfied
+
+Most successful vibe coders do 10-20 iterations on a single feature. That's normal. Each iteration takes seconds.
+
+### Step 5: Add Logic and Functionality
+
+Once the layout looks right, you add the behaviors that make the app useful.
+
+**Common Beginner Features**
+
+Forms and inputs:
+
+- "Add a form with fields for name, email, and message"
+- "Validate the email field before allowing submission"
+- "Show a success message after the form is submitted"
+
+Data operations:
+
+- "Calculate and display the total at the bottom"
+- "Filter the list to show only items marked as 'active'"
+- "Sort by price from low to high"
+
+User interactions:
+
+- "Add a confirmation dialog before deleting an item"
+- "Show a tooltip when hovering over the info icon"
+- "Collapse the sidebar when clicking outside of it"
+
+**How to Ask for Specific Behaviors**
+
+Be precise about triggers and outcomes:
+
+**Not great:** "Make the delete button work"
+
+**Better:** "When the user clicks the delete button, show a confirmation dialog. If they confirm, remove the item from the list and show a toast notification saying 'Item deleted'."
+
+The more specific you are about what triggers an action and what the result should be, the better the output.
+
+### Step 6: Polish the Design
+
+Functionality first, then aesthetics. Once everything works, make it look good.
+
+**Layout Polish**
+
+- "Increase the spacing between sections"
+- "Make the cards all the same height"
+- "Add a subtle shadow to the card elements"
+- "Use a consistent border radius across all elements: 8px"
+
+**Color and Typography**
+
+- "Use a warmer color palette: soft whites and warm grays"
+- "Make the headings darker and increase the font weight"
+- "Add a subtle gradient to the primary button"
+
+**Mobile Responsiveness**
+
+This one matters. Always ask:
+
+- "Make the layout responsive: stack the columns on mobile"
+- "Hide the sidebar on screens smaller than 768px and add a hamburger menu"
+- "Increase the button size on mobile for easier tapping"
+
+Test on your phone. If it looks broken, tell the AI what's wrong and how to fix it.
+
+### Step 7: Audit, Then Deploy
+
+You've built something. Before you put it on the internet, run a 30-minute security pass. AI-generated code has predictable gaps and you can catch most of them without being a security expert.
+
+**Before-you-ship checklist (5 minutes per item):**
+
+1. Are there any API keys, tokens, or `.env` values committed to git? Search the repo for "sk-", "API_KEY", "SECRET".
+2. If you're using Supabase, is Row Level Security enabled on every table?
+3. Does every API route check that the request is authenticated?
+4. Is there a rate limit on the routes that call an LLM (otherwise one user can rack up a $5k bill)?
+5. Is CORS restricted to your domain, not `*`?
+
+If anything from the checklist trips you up, that's the point at which inheriting some help is cheap.
+
+Once you're clean, deploy.
