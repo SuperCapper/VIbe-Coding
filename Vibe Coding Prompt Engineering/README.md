@@ -1,13 +1,3 @@
-> **TL;DR**
->
-> In **Vibe Coding**, your prompt is your source code.
->
-> - **Rule 1:** Be explicit about **Context** (@mention files).
-> - **Rule 2:** Focus on **Behavior**, not just implementation.
-> - **Rule 3:** Use **Pseudo-code** to guide complex logic.
-> - **Rule 4:** Iterative prompting > One giant prompt.
-> - **Tool:** Use **Cursor** for the best context-aware prompting.
-
 # The 5 Golden Rules of Vibe Prompting
 
 ## 1. Context is King (@Files)
