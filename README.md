@@ -196,7 +196,7 @@ Be precise about triggers and outcomes:
 
 The more specific you are about what triggers an action and what the result should be, the better the output.
 
-### The checklist that fixes most "bad prompt" problems
+### Step 6: The checklist that fixes most "bad prompt" problems
 
 Before you hit enter, can you answer:
 
@@ -206,7 +206,7 @@ Before you hit enter, can you answer:
 - Acceptance criteria
 - How you'll validate it
 
-### Step 6: Polish the Design
+### Step 7: Polish the Design
 
 Functionality first, then aesthetics. Once everything works, make it look good.
 
@@ -233,7 +233,7 @@ This one matters. Always ask:
 
 Test on your phone. If it looks broken, tell the AI what's wrong and how to fix it.
 
-### Step 7: Audit, Then Deploy
+### Step 8: Audit, Then Deploy
 
 You've built something. Before you put it on the internet, run a 30-minute security pass. AI-generated code has predictable gaps and you can catch most of them without being a security expert.
 
