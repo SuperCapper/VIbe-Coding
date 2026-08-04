@@ -10,7 +10,7 @@
 > - Iterative prompting > One giant prompt.
 > - **Tools:** Use **Cursor** and **Claude** for the best context-aware prompting.
 
-**Advanced vibe coding techniques for developers:**
+## **Advanced vibe coding techniques for developers:**
 
 - **Rules files:** Teach AI your conventions with `.cursor/rules/`, `CLAUDE.md`, or `.windsurfrules`
 - **Context engineering:** Structure your project so AI can't fail - docs, schemas, constraints
