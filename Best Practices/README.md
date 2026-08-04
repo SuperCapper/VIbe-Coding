@@ -10,6 +10,8 @@
 > - Iterative prompting > One giant prompt.
 > - **Tools:** Use **Cursor** and **Claude** for the best context-aware prompting.
 
+[Placeholder]
+
 Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
 
 ## 1. Define Intent Before You Prompt
