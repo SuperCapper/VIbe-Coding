@@ -63,3 +63,27 @@ Pure vibe coding and responsible AI-assisted development are different modes, an
 - The same bug has come back three times and the AI keeps "fixing" it
 
 Hit any of these and the mode changes: read the diffs, ask the AI to explain the architecture, write tests. And if a vibe-coded prototype is getting handed to professional engineers, give them the prompt history and a written walkthrough of what you think it does. The handoff goes much smoother when they're not reverse-engineering a mystery.
+
+## Getting Started: A Walkthrough
+
+### Step 1: Choose Your Tool
+
+![Step 1: Choose Your Tool](images/step1-choose-tool.png)
+
+### Step 2: Write Your First Prompt
+
+![Step 2: Write Your First Prompt](images/step2-write-first-prompt.png)
+
+![Bad Prompt vs. Good Prompt](images/bad-prompt-vs-good-prompt.png)
+
+### Step 3: Generate Your First Version
+
+![Step 3: Generate Your First Version](images/step3-generate-first-version.png)
+
+![The 80% Rule](images/the-80-percent-rule.png)
+
+### Step 4: Iterate With Conversational Edits
+
+![Step 4: Iterate With Conversational Edits](images/step4-iterate-conversational-edits.png)
+
+![Iterate example: small prompts beat big prompts](images/iterate-example-small-prompts.png)
