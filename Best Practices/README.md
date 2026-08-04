@@ -10,7 +10,14 @@
 > - Iterative prompting > One giant prompt.
 > - **Tools:** Use **Cursor** and **Claude** for the best context-aware prompting.
 
-[Placeholder]
+**Advanced vibe coding techniques for developers:**
+
+- **Rules files:** Teach AI your conventions with `.cursor/rules/`, `CLAUDE.md`, or `.windsurfrules`
+- **Context engineering:** Structure your project so AI can't fail - docs, schemas, constraints
+- **Research-Plan-Implement:** Have AI research, create a plan you review, then implement
+- **AI Agents:** 90% of devs use them daily - autonomous multi-step execution
+- **MCP:** Connect AI to databases, APIs, and external tools via Model Context Protocol
+- **Guardrails:** Human-in-the-loop for critical actions, audit logging, permission limits
 
 Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
 
