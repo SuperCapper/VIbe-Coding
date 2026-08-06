@@ -52,6 +52,8 @@ Cursor is an AI-native code editor. It is more technical, but it lets a PM open 
 
 **Best for:** PMs building technical fluency, precise edits beyond what chat allows.
 
+[PLaceholder]
+
 ## Prototype to Validate, Then Hand Off
 
 ### Step 1: Frame the Question, Not the Feature
