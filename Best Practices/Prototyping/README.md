@@ -19,7 +19,27 @@ Bolt.new scaffolds full-stack apps with a clean structure, useful when a marketi
 
 **Best for:** Interactive tools likely to outgrow a quick build and move to the product team.
 
-[Placeholder]
+## What Marketers Should Know Before Starting
+
+**Start with throwaway, high-value builds.** Campaign pages and lead magnets are perfect first projects: high impact, low risk, short lifespan. Learn the loop on those before you touch anything central.
+
+**Describe outcomes, not implementations.** "Visitors should be able to estimate their savings and then book a call" works better than dictating the technical setup. Let the AI handle the how.
+
+**Keep a human in the loop for data and compliance.** The build is fast; the responsibility for user data is not optional. Loop in whoever owns privacy and analytics for anything that captures leads.
+
+**Know when it graduates.** When a quick tool starts driving real revenue, move it to the product team with a clean handoff, using a structured output from a tool like Bolt.new.
+
+## What to Watch Out For
+
+The speed is real, and so are the things that can quietly go wrong.
+
+**Tracking can break invisibly.** A page can look perfect and still not fire a single analytics event. Always verify events arrive before you spend on traffic.
+
+**Data handling needs a human check.** If a page collects emails or any personal data, make sure it is stored securely, that you have consent and a privacy notice where required, and that someone reviews the data flow before launch.
+
+**Performance affects conversion.** Slow pages lose conversions and rank worse. Keep images optimized and the page lean; ask the builder to prioritize load speed.
+
+**Generated code still has risks.** Anything that collects or processes user data deserves review. AI-generated code carries security risks that a marketing review will not catch on its own.
 
 ## Ship a Campaign Page in an Afternoon
 
