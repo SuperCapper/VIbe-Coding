@@ -21,6 +21,7 @@
 - **[Designing](Designing/README.md):** Go from a Figma file or a written description to a working, clickable app - V0, Lovable, Bolt.new, Figma Make, Claude Design, and Cursor
 - **[Prototyping](Prototyping/README.md):** Ship marketing pages and lead-capture tools without waiting on engineering - Lovable, V0, Replit, and Bolt.new
 - **[Product Management](Product%20Management/README.md):** Validate ideas and write specs backed by a working reference instead of prose - Bolt.new and Cursor
+- **[Vibe Coding Workflows](Vibe%20Coding%20Workflows/README.md):** The universal 5-stage loop (Define, Scaffold, Build, Debug & Test, Ship) that every vibe coding workflow maps to
 
 Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
 
