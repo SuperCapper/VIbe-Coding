@@ -1,4 +1,4 @@
-# Vibe Coding for Prototypers
+# Vibe Coding for Prototyping
 
 > **TL;DR**
 >
@@ -7,7 +7,7 @@
 > - The payoff is speed: you can launch a campaign-specific page or interactive tool the same day instead of filing a ticket and waiting for the next sprint.
 > - Keep tracking, forms, and data handling honest. Wire up analytics and respect privacy rules, and have someone review anything that collects user data before it goes live.
 
-## Best Tools for Prototypers
+## Best Tools for Prototyping
 
 ### Bolt.new - Best for Tools You Will Hand Off Later
 
