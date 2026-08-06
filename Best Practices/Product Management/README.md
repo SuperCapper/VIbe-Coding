@@ -52,7 +52,15 @@ Cursor is an AI-native code editor. It is more technical, but it lets a PM open 
 
 **Best for:** PMs building technical fluency, precise edits beyond what chat allows.
 
-[PLaceholder]
+## What PMs Should Know Before Starting
+
+**Prototype to learn, not to ship.** The win is faster, cheaper validation and clearer communication. Hold that frame and the tool stays an asset rather than a liability.
+
+**Describe outcomes, not implementations.** "A user should be able to invite a teammate and assign them a role" works better than dictating the technical approach. Let the AI handle the how; you own the what and the why.
+
+**Build technical fluency along the way.** You do not need to become an engineer, but understanding the shape of what you spec makes you a sharper partner to the team. The vibe coding complete guide is a good grounding.
+
+**Keep engineering in the loop early on anything headed for production.** The handoff is where value is won or lost. Bring engineering in before a validated prototype starts pretending to be a product.
 
 ## Prototype to Validate, Then Hand Off
 
