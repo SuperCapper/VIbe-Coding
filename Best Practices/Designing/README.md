@@ -62,3 +62,58 @@ Cursor is an AI-native code editor. It is more technical than the other options,
 **Pricing:** Free tier (Hobby). Paid from $20/month.
 
 **Best for:** Designers ready to touch real code, fine-tuning a build past what a chat interface allows.
+
+## What Designers Should Know Before Starting
+
+**Your taste is the differentiator.** The AI can produce a generic, competent UI for anyone. What makes the output good is your judgment applied through fast iteration. Lean on the skill you already have.
+
+**Treat the first build as a prototype.** It is a very high-fidelity prototype that happens to run. Use it to validate the interaction and the flow before you, or an engineer, invest in hardening it.
+
+**Build a small prompt vocabulary.** A handful of phrases for spacing, hierarchy, states, and responsiveness will get you most of what you need. The vibe coding workflow examples show common patterns in action.
+
+**Know when to hand off.** The goal is not to become a full-stack engineer. It is to ship designs that work and to hand off real code instead of a static file when the project needs to scale.
+
+## Where Designers Get Stuck
+
+Being honest about the rough edges saves you frustration.
+
+**Pixel-perfect parity is not guaranteed.** Tools that convert a design into code get you most of the way, then leave spacing, edge cases, and responsive behavior for you to fix. Plan for a refinement pass; do not expect a one-click, exact match.
+
+**Design systems need to be taught.** The AI does not know your tokens, your type scale, or your component rules unless you tell it. Establishing your colors, spacing scale, and component conventions early keeps the output consistent.
+
+**Complex state and logic are still hard.** Animations, multi-step flows with conditional logic, and intricate data handling are where you will most often need an engineer. The visual layer is the easy win; deep behavior is not.
+
+**Generated code still needs review.** Before anything goes to real users, an engineer should check it. AI-generated code carries security and quality risks that a visual review will not catch.
+
+## From Figma to Working App (Step by Step)
+
+### Step 1: Start With One Screen, Not the Whole Product
+
+Pick the single most important screen: the dashboard, the signup flow, the core editor. Describe it in plain language, or feed in the design, and get one screen working before you expand. Building the whole app in one prompt produces worse results than building it screen by screen.
+
+### Step 2: Describe the Intent, Not the Pixels
+
+The AI is better at intent than at exact measurements. "A two-column settings page with the nav on the left and a sticky save bar at the bottom" works better than a list of pixel values. You will fix the precise spacing in the next step.
+
+### Step 3: Refine Visually, One Change at a Time
+
+This is where your eye does the work. Go through the output the way you would a junior designer's first draft:
+
+- "The card padding is too tight, increase it"
+- "The heading and body text are the same size, build a clearer type hierarchy"
+- "Add a hover and a disabled state to the primary button"
+- "On mobile, stack these columns instead of squeezing them"
+
+One change per prompt. Each refinement compounds.
+
+### Step 4: Test the Real Interaction
+
+Click through the build the way a user would. Submit the forms. Trigger the empty states and the error states. A working build exposes interaction problems a static prototype hides, which is exactly why you built it.
+
+### Step 5: Decide What Happens Next
+
+Now you have a working, designed prototype. Your options:
+
+- **Keep refining in the tool** for simple apps and internal tools
+- **Hand the code to a developer** for production launches, using [Bolt.new](#boltnew---best-for-developer-handoff) output so the handoff carries real structure
+- **Open it in [Cursor](#cursor---best-for-designers-who-want-to-learn-the-code)** and start editing the code yourself
