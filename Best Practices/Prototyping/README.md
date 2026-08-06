@@ -1,25 +1,25 @@
-# Vibe Coding for Marketers
+# Vibe Coding for Prototypers
 
 > **TL;DR**
 >
-> - Vibe coding lets marketers build the things they usually wait on engineering for: landing pages, lead-capture micro-apps, calculators, quizzes, and internal dashboards.
+> - Vibe coding lets prototypers build the things they usually wait on engineering for: landing pages, lead-capture micro-apps, calculators, quizzes, and internal dashboards.
 > - The fastest starting points are **Lovable** (full pages and apps from chat), **V0** (landing-page sections from a prompt), and **Replit** (iterate and host in one place).
 > - The payoff is speed: you can launch a campaign-specific page or interactive tool the same day instead of filing a ticket and waiting for the next sprint.
 > - Keep tracking, forms, and data handling honest. Wire up analytics and respect privacy rules, and have someone review anything that collects user data before it goes live.
 
-## Best Tools for Marketers
+## Best Tools for Prototypers
 
 ### Bolt.new - Best for Tools You Will Hand Off Later
 
 Bolt.new scaffolds full-stack apps with a clean structure, useful when a marketing tool succeeds and engineering needs to adopt it.
 
-**Why marketers like it:** Build the first version yourself, prove it works, then hand engineering a real codebase instead of a request. Reduces friction when a quick win graduates into a maintained product.
+**Why prototypers like it:** Build the first version yourself, prove it works, then hand engineering a real codebase instead of a request. Reduces friction when a quick win graduates into a maintained product.
 
 **Pricing:** Free tier available. Paid from $20/month.
 
 **Best for:** Interactive tools likely to outgrow a quick build and move to the product team.
 
-## What Marketers Should Know Before Starting
+## What Prototypers Should Know Before Starting
 
 **Start with throwaway, high-value builds.** Campaign pages and lead magnets are perfect first projects: high impact, low risk, short lifespan. Learn the loop on those before you touch anything central.
 
