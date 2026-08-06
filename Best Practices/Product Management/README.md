@@ -51,3 +51,37 @@ Cursor is an AI-native code editor. It is more technical, but it lets a PM open 
 **Pricing:** Free tier (Hobby). Paid from $20/month.
 
 **Best for:** PMs building technical fluency, precise edits beyond what chat allows.
+
+## Prototype to Validate, Then Hand Off
+
+### Step 1: Frame the Question, Not the Feature
+
+Start from what you are trying to learn: "Will users complete onboarding if we cut it to two steps?" The prototype exists to answer that, so scope it to the flow that tests the question, not the whole product.
+
+### Step 2: Build the Smallest Honest Version
+
+Describe just enough to make the flow real: the screens involved, the form fields, what happens on submit. Get one path working end to end before you widen it. One change per prompt produces better results than a long list at once.
+
+### Step 3: Put It in Front of Real People
+
+Run it through users or stakeholders the way you would any prototype, except this one actually works. Watch where they hesitate, where they get stuck, where the flow dead-ends. A working build surfaces problems a static mock cannot.
+
+### Step 4: Turn Findings into a Tight Spec
+
+Use what you learned to write the spec, with the prototype attached as the reference. The edge cases and empty states you discovered while building are now decisions in the doc, not surprises mid-sprint. The vibe coding workflow examples show how this loop runs.
+
+### Step 5: Hand Off Cleanly
+
+Give engineering either a clean codebase (from a tool like Bolt.new) or a precise spec plus the working prototype. Be explicit that the prototype is a reference, not the foundation, unless engineering decides to build on it.
+
+## Where the Line Is
+
+Knowing what vibe coding is not for keeps you out of trouble.
+
+**A prototype is not production.** It is built to validate and communicate, not to scale or to be maintained. Pushing one to real users without engineering review invites security, performance, and reliability problems.
+
+**Generated code needs review before launch.** AI-generated code carries security and quality risks that a PM walkthrough will not catch. Anything touching real user data needs an engineer's eyes.
+
+**Watch for shadow production.** The biggest organizational risk is a prototype quietly becoming the real thing because it works well enough. Decide deliberately whether to harden it or rebuild it; do not let it drift.
+
+**Respect the team's judgment.** The prototype is an input to the engineering conversation, not a mandate. The implementation decisions are still engineering's to make.
