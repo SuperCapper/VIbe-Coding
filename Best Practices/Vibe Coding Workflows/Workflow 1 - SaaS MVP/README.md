@@ -91,3 +91,51 @@ I need:
 ## Cost for This Workflow
 
 Cursor Pro at $20/month, Supabase free tier, Vercel free tier. Total: $20/month to start.
+
+## Breakout: The Framework-First Workflow (Wasp + Cursor)
+
+There's a variant of the solo developer workflow worth calling out separately: using an opinionated full-stack framework alongside your AI IDE.
+
+Wasp is an open-source framework that lets you define your app's structure in a declarative `.wasp` config file: routes, auth, database models, server actions, and it generates the React frontend, Node.js backend, and Prisma ORM layer for you. When you pair this with Cursor or another AI IDE, something interesting happens: the AI isn't generating arbitrary full-stack code from scratch. It's working within a framework's conventions, which means fewer hallucinated patterns and more consistent output.
+
+The workflow looks like this:
+
+**1. Define your app in the `.wasp` file.** This is where you declare pages, routes, auth methods, and database entities. It's a short config: maybe 30-50 lines for an MVP.
+
+```
+app HabitTracker {
+  wasp: { version: "^0.15.0" },
+  title: "HabitTracker",
+  auth: {
+    userEntity: User,
+    methods: { google: {}, email: {} }
+  }
+}
+
+entity Habit {=psl
+  id        Int      @id @default(autoincrement())
+  name      String
+  userId    Int
+  user      User     @relation(fields: [userId], references: [id])
+  checkIns  CheckIn[]
+psl=}
+
+route DashboardRoute { path: "/dashboard", to: DashboardPage }
+page DashboardPage { component: import { Dashboard } from "@src/pages/Dashboard" }
+```
+
+**2. Let AI handle the page components and server logic.** Once the framework structure exists, prompt Cursor to build within it:
+
+```
+Using the Wasp entities defined in main.wasp, build the Dashboard page component at src/pages/Dashboard.tsx. It should:
+- Fetch all habits for the current user using a Wasp query
+- Display each habit with a checkbox for today's check-in
+- Show a 7-day streak count next to each habit
+- Use the Wasp useQuery hook for data fetching
+```
+
+**3. The framework catches mistakes the AI makes.** If the AI generates a query that doesn't match your Wasp entities, the compiler tells you immediately. You're not hunting through a custom backend to figure out why something broke: the framework's type system flags it.
+
+**Why this matters for vibe coding:** The biggest risk in Workflow 1 is that the AI generates a sprawling custom backend with inconsistent patterns. A framework like Wasp acts as a structural guardrail. The AI fills in the details, but the architecture stays clean because the framework enforces it. This is particularly useful if you're building something you plan to maintain beyond the prototype stage.
+
+**Cost:** Wasp is free and open-source. Combined with Cursor Pro ($20/month), Supabase free tier, and a hosting provider, you're at the same $20/month as Workflow 1 but with a more maintainable output.
