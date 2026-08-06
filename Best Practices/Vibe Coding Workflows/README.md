@@ -25,3 +25,7 @@ Before jumping into specific workflows, here's the universal framework. Every wo
 | **5. Ship** | Configure deployment, review final output | Generate deploy configs, environment setup | "Create a Vercel deployment config for this project with these environment variables." |
 
 The time split varies. For a prototype, you might spend 10% on Define and 60% on Build. For a production feature, flip that: 40% on Define and Scaffold, 30% on Build, 30% on Debug & Test.
+
+## Workflows
+
+- **[Workflow 1 - SaaS MVP](Workflow%201%20-%20SaaS%20MVP/README.md):** Solo developer building a SaaS MVP with Cursor, Supabase, and Vercel
