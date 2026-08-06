@@ -19,6 +19,8 @@ Bolt.new scaffolds full-stack apps with a clean structure, useful when a marketi
 
 **Best for:** Interactive tools likely to outgrow a quick build and move to the product team.
 
+[Placeholder]
+
 ## Ship a Campaign Page in an Afternoon
 
 ### Step 1: Write the Brief as One Prompt
