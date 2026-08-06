@@ -19,6 +19,7 @@
 - **MCP:** Connect AI to databases, APIs, and external tools via Model Context Protocol
 - **Guardrails:** Human-in-the-loop for critical actions, audit logging, permission limits
 - **[Designing](Designing/README.md):** Go from a Figma file or a written description to a working, clickable app - V0, Lovable, Bolt.new, Figma Make, Claude Design, and Cursor
+- **[Prototyping](Prototyping/README.md):** Ship marketing pages and lead-capture tools without waiting on engineering - Lovable, V0, Replit, and Bolt.new
 
 Most "best practices" articles give you vague advice. Here's what actually moves the needle, based on what I've seen work and fail.
 
